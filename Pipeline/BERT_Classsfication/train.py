@@ -20,7 +20,6 @@ from sklearn.metrics import f1_score, precision_recall_fscore_support
 from collections import Counter
 import csv
 import argparse
-
 # ------------------------init parameters----------------------------
 parser = argparse.ArgumentParser(description='Bert Classification For CHEF')
 parser.add_argument('--cuda', type=str, default="0",help='appoint GPU devices')
